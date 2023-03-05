@@ -8,5 +8,5 @@ solution('abc', 'd') // returns false
 
 
 function solution(str, ending){
-  // TODO: complete
+  return str.substr(-ending.length) === ending;
 }
